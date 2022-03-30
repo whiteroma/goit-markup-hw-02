@@ -3,9 +3,24 @@ body {
     font-family: 'Oleo Script', cursive;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none
+}
+
+header {
+    display: flex;
+    height: 80px;
+    width: 1600px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
 }
 
 footer {
+    height: 252px;
+    width: 1600px;
+    left: 0px;
+    top: 2097px;
+    border-radius: 0px;
     background-color: #2F303A;
 }
 
@@ -18,6 +33,30 @@ p {
     letter-spacing: 0.03em;
     text-align: left;
     color: #757575;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
+    height: 120px;
+    width: 696px;
+    left: 452px;
+    top: 280px;
+    border-radius: nullpx;
 
 }
 
@@ -30,10 +69,86 @@ h2 {
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
+}
 
+h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+
+a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #212121;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #2196F3;
+}
+
+a:focus {
+    color: #2196F3;
+}
+
+.footer-map {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer-contacts {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF99;
 }
 
 .webstudio-logo {
+    display: flex;
+    flex-direction: row;
+    height: 31px;
+    width: 145px;
+    padding: 24px 93px 25px 215px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav-ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.webstudio-link {
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -44,14 +159,20 @@ h2 {
     color: #000;
     width: 145;
     height: 31;
-
 }
-.blue-text {
+
+.bluetext {
     color: #2196F3;
+}
+
+.whitetext {
+    color: #fff;
 }
 
 .Button-section {
     background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
 }
 
 .header-nav {
@@ -65,10 +186,6 @@ h2 {
     color: #212121;
 }
 
-.header-nav:hover {
-    color: #2196F3;
-}
-
 .header-contacts {
     font-family: Roboto;
     font-size: 14px;
@@ -78,4 +195,36 @@ h2 {
     letter-spacing: 0.02em;
     text-align: left;
     color: #757575;
+}
+
+.main-page-button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.footer-contact-div {
+    padding: 60px 1154px 60px 215px;
+}
+
+.about-us-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.what-we-do-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.our-team-list {
+    display: flex;
+    flex-direction: row;
 }
