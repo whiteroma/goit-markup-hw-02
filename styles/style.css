@@ -29,7 +29,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     text-align: left;
     color: #757575;
@@ -48,15 +48,11 @@ h1 {
     font-size: 44px;
     font-style: normal;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
     color: #FFFFFF;
-    height: 120px;
-    width: 696px;
-    left: 452px;
-    top: 280px;
-    border-radius: nullpx;
+    padding: 200px 452px 40px 452px;
 
 }
 
@@ -65,7 +61,7 @@ h2 {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
@@ -76,9 +72,9 @@ h3 {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 19px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
-    text-align: center;
+    text-align: left;
     color: #212121;
 }
 
@@ -87,7 +83,7 @@ a {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
     color: #212121;
@@ -108,7 +104,7 @@ a:focus {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
     color: #FFFFFF;
@@ -119,7 +115,7 @@ a:focus {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
     color: #FFFFFF99;
@@ -130,7 +126,6 @@ a:focus {
     flex-direction: row;
     height: 31px;
     width: 145px;
-    padding: 24px 93px 25px 215px;
 }
 
 .header-nav {
@@ -153,7 +148,7 @@ a:focus {
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: left;
     color: #000;
@@ -180,7 +175,7 @@ a:focus {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
     color: #212121;
@@ -191,7 +186,7 @@ a:focus {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
     color: #757575;
@@ -202,16 +197,26 @@ a:focus {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     text-align: center;
     color: #fff;
     background-color: #2196F3;
     cursor: pointer;
+    margin: 30px 700px 200px 700px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px 0px #00000026;
 }
 
 .footer-contact-div {
     padding: 60px 1154px 60px 215px;
+}
+
+.about-us-section {
+    display: flex;
+    margin: 94px 215px;
+    text-align: justify;
 }
 
 .about-us-list {
@@ -219,12 +224,93 @@ a:focus {
     flex-direction: row;
 }
 
+.what-we-do-section {
+    display: block;
+    margin: 94px 215px;
+}
+
 .what-we-do-list {
     display: flex;
     flex-direction: row;
 }
 
+.what-we-do-item {
+    padding-right: 30px;
+}
+
+.our-team-section {
+    display: block;
+    margin: 94px 215px;
+}
+
 .our-team-list {
     display: flex;
     flex-direction: row;
+    text-align: center;
+}
+
+.our-team-item {
+    box-shadow: 0px 2px 1px 0px #00000033;
+    padding-right: 30px;
+
+
+}
+
+.our-team-name {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+
+.our-team-job {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+}
+
+.portfolio-buttons-div {
+    text-align: center;
+  
+}
+
+.portfolio-button-blue {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+    background-color: #2196F3;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.portfolio-buttons {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    cursor: pointer;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #F5F4FA;  
+}
+
+.portfolio-list-item {
+    display: grid;
+    border: 1px solid #EEEEEE;
 }
