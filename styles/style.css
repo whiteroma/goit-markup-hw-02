@@ -149,6 +149,10 @@ a:focus {
     color: #fff;
 }
 
+.blacktext {
+    color: #000;
+}
+
 .Button-section {
     background-color: #2F303A;
 }
@@ -264,7 +268,7 @@ a:focus {
     color: #212121;
     cursor: pointer;
     border-radius: 4px;
-    border-style: none;
+    /* border-style: none; */
     background-color: #F5F4FA;
 }
 
