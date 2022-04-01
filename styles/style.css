@@ -6,21 +6,10 @@ body {
     text-decoration: none
 }
 
-header {
-    display: flex;
-    height: 80px;
-    width: 1600px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-}
+header {}
 
 footer {
-    height: 252px;
-    width: 1600px;
-    left: 0px;
-    top: 2097px;
-    border-radius: 0px;
+
     background-color: #2F303A;
 }
 
@@ -39,9 +28,7 @@ li {
     list-style-type: none;
 }
 
-ul {
-    padding-left: 0;
-}
+ul {}
 
 h1 {
     font-family: Roboto;
@@ -52,8 +39,6 @@ h1 {
     letter-spacing: 0.06em;
     text-align: center;
     color: #FFFFFF;
-    padding: 200px 452px 40px 452px;
-
 }
 
 h2 {
@@ -128,27 +113,22 @@ a:focus {
     color: #fff;
 }
 
-.webstudio-logo {
-    display: flex;
-    flex-direction: row;
-    height: 31px;
-    width: 145px;
+.webstudio-logo {}
+
+.header-nav-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #212121;
+
 }
 
-.header-nav {
-    display: flex;
-    flex-direction: row;
-}
+.header-nav-ul {}
 
-.header-nav-ul {
-    display: flex;
-    flex-direction: row;
-}
-
-.header-contacts {
-    display: flex;
-    flex-direction: row;
-}
+.header-contacts {}
 
 .webstudio-link {
     font-family: Raleway;
@@ -159,8 +139,6 @@ a:focus {
     letter-spacing: 0.03em;
     text-align: left;
     color: #000;
-    width: 145;
-    height: 31;
 }
 
 .bluetext {
@@ -173,8 +151,6 @@ a:focus {
 
 .Button-section {
     background-color: #2F303A;
-    width: 1600px;
-    height: 600px;
 }
 
 .header-nav {
@@ -214,59 +190,29 @@ a:focus {
     color: #fff;
     background-color: #2196F3;
     cursor: pointer;
-    margin: 30px 700px 200px 700px;
-    width: 200px;
-    height: 50px;
     box-shadow: 0px 4px 4px 0px #00000026;
 }
 
-.footer-contact-div {
-    padding: 60px 1154px 60px 215px;
-}
+.footer-contact-div {}
 
 
-.about-us-section {
-    display: flex;
-    margin: 94px 215px;
-    text-align: justify;
-}
+.about-us-section {}
 
-.about-us-list {
-    display: flex;
-    flex-direction: row;
-}
+.about-us-list {}
 
-.what-we-do-section {
-    display: block;
-    margin: 94px 215px;
-}
+.what-we-do-section {}
 
-.what-we-do-list {
-    display: flex;
-    flex-direction: row;
-}
+.what-we-do-list {}
 
-.what-we-do-item {
-    padding-right: 30px;
-}
+.what-we-do-item {}
 
-.our-team-section {
-    display: block;
-    margin: 94px 215px;
-}
+.our-team-section {}
 
 .our-team-list {
-    display: flex;
-    flex-direction: row;
     text-align: center;
 }
 
-.our-team-item {
-    box-shadow: 0px 2px 1px 0px #00000033;
-    padding-right: 30px;
-
-
-}
+.our-team-item {}
 
 .our-team-name {
     font-family: Roboto;
@@ -292,7 +238,7 @@ a:focus {
 
 .portfolio-buttons-div {
     text-align: center;
-  
+
 }
 
 .portfolio-button-blue {
@@ -319,11 +265,10 @@ a:focus {
     cursor: pointer;
     border-radius: 4px;
     border-style: none;
-    background-color: #F5F4FA;  
+    background-color: #F5F4FA;
 }
 
 .portfolio-list-item {
-    display: grid;
     border: 1px solid #EEEEEE;
 }
 
