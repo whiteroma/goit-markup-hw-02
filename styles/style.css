@@ -86,17 +86,16 @@ a {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #212121;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration-line: underline;
-    text-decoration-color: #2196F3;
+    color: #2196f3;
 }
 
 a:focus {
-    color: #2196F3;
+    text-decoration-line: underline;
+    text-decoration-color: #2196F3;
 }
 
 .footer-map {
@@ -110,6 +109,10 @@ a:focus {
     color: #FFFFFF;
 }
 
+.footer-map:hover {
+    color: #fff;
+}
+
 .footer-contacts {
     font-family: Roboto;
     font-size: 14px;
@@ -119,6 +122,10 @@ a:focus {
     letter-spacing: 0.03em;
     text-align: left;
     color: #FFFFFF99;
+}
+
+.footer-contacts:hover {
+    color: #fff;
 }
 
 .webstudio-logo {
@@ -192,6 +199,10 @@ a:focus {
     color: #757575;
 }
 
+.header-contacts-link {
+    color: #757575;
+}
+
 .main-page-button {
     font-family: Roboto;
     font-size: 16px;
@@ -212,6 +223,7 @@ a:focus {
 .footer-contact-div {
     padding: 60px 1154px 60px 215px;
 }
+
 
 .about-us-section {
     display: flex;
@@ -313,4 +325,23 @@ a:focus {
 .portfolio-list-item {
     display: grid;
     border: 1px solid #EEEEEE;
+}
+
+.portfolio-buttons-list {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    cursor: pointer;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #F5F4FA;
+}
+
+.portfolio-buttons:hover {
+    background-color: #2196f3;
+    color: #fff;
 }
