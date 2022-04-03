@@ -177,10 +177,12 @@ address {
 
 .main-page-button:hover {
     background-color: #188CE8;
+    box-shadow: 0px 4px 4px 0px #00000026;
 }
 
 .main-page-button:focus {
     background-color: #188CE8;
+    box-shadow: 0px 4px 4px 0px #00000026;
 }
 
 .footer-contact-div {}
