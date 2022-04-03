@@ -69,6 +69,10 @@ a:focus {
     color: #2196f3;
 }
 
+address {
+    font-style: normal;
+}
+
 .footer-map {
     font-size: 14px;
     font-weight: 400;
