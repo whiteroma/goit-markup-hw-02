@@ -1,7 +1,4 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Oleo Script', cursive;
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-decoration: none
 }
@@ -14,9 +11,7 @@ footer {
 }
 
 p {
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -31,9 +26,7 @@ li {
 ul {}
 
 h1 {
-    font-family: Roboto;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -42,9 +35,7 @@ h1 {
 }
 
 h2 {
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
@@ -53,9 +44,7 @@ h2 {
 }
 
 h3 {
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -64,9 +53,7 @@ h3 {
 }
 
 a {
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -79,14 +66,11 @@ a:hover {
 }
 
 a:focus {
-    text-decoration-line: underline;
-    text-decoration-color: #2196F3;
+    color: #2196f3;
 }
 
 .footer-map {
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -99,9 +83,7 @@ a:focus {
 }
 
 .footer-contacts {
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -116,7 +98,6 @@ a:focus {
 .webstudio-logo {}
 
 .header-nav-link {
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -133,7 +114,6 @@ a:focus {
 .webstudio-link {
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -158,9 +138,7 @@ a:focus {
 }
 
 .header-nav {
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -169,9 +147,7 @@ a:focus {
 }
 
 .header-contacts {
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -184,9 +160,7 @@ a:focus {
 }
 
 .main-page-button {
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.06em;
@@ -197,6 +171,14 @@ a:focus {
     box-shadow: 0px 4px 4px 0px #00000026;
 }
 
+.main-page-button:hover {
+    background-color: #188CE8;
+}
+
+.main-page-button:focus {
+    background-color: #188CE8;
+}
+
 .footer-contact-div {}
 
 
@@ -204,13 +186,31 @@ a:focus {
 
 .about-us-list {}
 
+.about-us-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.about-us-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
 .what-we-do-section {}
 
 .what-we-do-list {}
 
 .what-we-do-item {}
 
-.our-team-section {}
+.our-team-section {
+    background-color: #F5F4FA;
+}
 
 .our-team-list {
     text-align: center;
@@ -219,9 +219,7 @@ a:focus {
 .our-team-item {}
 
 .our-team-name {
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -230,9 +228,7 @@ a:focus {
 }
 
 .our-team-job {
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -240,13 +236,12 @@ a:focus {
     color: #757575;
 }
 
-.portfolio-buttons-div {
+.portfolio-buttons-section {
     text-align: center;
 
 }
 
 .portfolio-button-blue {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
@@ -259,7 +254,6 @@ a:focus {
 }
 
 .portfolio-buttons {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
@@ -277,7 +271,6 @@ a:focus {
 }
 
 .portfolio-buttons-list {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
@@ -287,7 +280,6 @@ a:focus {
     cursor: pointer;
     border-radius: 4px;
     border-style: none;
-    background-color: #F5F4FA;
 }
 
 .portfolio-buttons:hover {
